@@ -67,7 +67,7 @@ a:hover{
 
 /* First ShowCase */
 .bgimage{
-    background-image: url("images/burger.jpg");
+    background-image: url("images2/beefburger.webp");
     position: relative;
     opacity:0.8;
     background-position:center ;
@@ -86,14 +86,14 @@ a:hover{
     top:20%;
     width:100%;
     text-align: center;
-    font-size: 29px;
+    font-size: 35px;
     letter-spacing: 7px;
     text-transform: uppercase;
 
 }
 .bgimage .form-container{
     position: absolute;
-    top:35%;
+    top:40%;
     right:5%;
     left:5%;
     text-align: center;
@@ -143,7 +143,7 @@ img{
 /* showcase3 */
 
 .bgimg2{
-    background-image: url("images/delivery.jpg");
+    background-image: url("images2/delivery man.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 400px;
@@ -365,7 +365,7 @@ footer h2{
 
 /* Menu Page */
 .menu-bgimage{
-    background-image: url("images/cookies.jpg");
+    background-image: url("images2/cookies.jpeg");
     position: relative;
     
     opacity:0.8;
@@ -403,7 +403,7 @@ footer h2{
     }
 
     .menu-bgimg2{
-        background-image: url("images/burger.jpg");
+        background-image: url("images2/beefburger.webp");
     background-attachment: scroll;
     background-repeat: no-repeat;
     height: 400px;
@@ -510,7 +510,7 @@ footer h2{
     }
 
     .cart-bgimg2{
-        background-image: url("images/sandwich.jpg");
+        background-image: url("images2/ choco sandwich.jpeg");
       position: relative;
       margin-top: 1rem;
     
@@ -538,7 +538,7 @@ footer h2{
     }
 
     .cart-bgimg{
-    background-image: url("images/posman.jpg");
+    background-image: url("images2/posman.jpeg");
     position: relative;
     
     opacity:0.8;

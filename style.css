@@ -7,6 +7,9 @@ body, html{
     font-size: 19px;
     font-weight: 400;
     background-color: black;
+    margin: 0;
+    overflow-x: hidden;
+
     
 
 }
@@ -73,7 +76,8 @@ a:hover{
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
-    height:400px ;
+    height:100vh;
+    width: 100%;
     /*
     fixed= parallex
     scroll= normal
@@ -281,8 +285,12 @@ footer h2{
 /* Media Queries */
 
 @media(max-width:375px){
-    .card img{
-        width:300px;
+    
+    
+    .bgimage , .bgimage2{
+        height: 100vh;
+    
+        overflow: hidden;
     }
     
     .menu-working h2{
@@ -299,15 +307,17 @@ footer h2{
     .menu-working ul li{
         margin:0;
     }
-    
+
 }
-@media(max-width:600px){
+@media(max-width: 560px){
     
     .card img{
         width:300px;
     }
     .bgimage, .bgimage2{
         background-attachment: scroll;
+        width:100vw;
+        overflow: hidden;
         
     }
 
@@ -344,6 +354,7 @@ footer h2{
         color:white;
         display:flex;
         flex-direction: column;
+        overflow-y: hidden;
         justify-content: start;
     
     }

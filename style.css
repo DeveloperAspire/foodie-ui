@@ -280,16 +280,16 @@ footer h2{
 
 /* Media Queries */
 
-@media(max-width:400px){
+@media(max-width:375px){
     .card img{
-        width:80%;
+        width:300px;
     }
     
 }
 @media(max-width:600px){
     
     .card img{
-        width:80%;
+        width:300px;
     }
     .bgimage, .bgimage2{
         background-attachment: scroll;
@@ -440,8 +440,8 @@ footer h2{
         margin-left:2rem;
     }
     .card img{
-        height:400px;
-        width:500px;
+        height:300px;
+        width:300px;
     }
     
 

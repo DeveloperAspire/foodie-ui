@@ -285,6 +285,21 @@ footer h2{
         width:300px;
     }
     
+    .menu-working h2{
+        text-align: center;
+    
+    }
+    .menu-working {
+        padding:0;
+      
+      
+      margin-right: 3rem;
+    }
+
+    .menu-working ul li{
+        margin:0;
+    }
+    
 }
 @media(max-width:600px){
     
@@ -455,7 +470,7 @@ footer h2{
         margin-top: 1rem;
         border-radius: 2rem;
     }
-    .card:nth-child(even) img{
+    .card:nth-child(odd) img{
         order:2;
     }
 

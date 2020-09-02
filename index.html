@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Foodie</title>
 </head>
@@ -40,7 +41,7 @@
 
     </section>
 
-    <section class="showcase">
+    <section class="showcase" data-aos="fade-up">
 
         <div class="imgcontainer1">
             <img src="images2/pancake.jpeg" alt="a pancake with oil">
@@ -55,14 +56,14 @@
         </div>
 
         <div class="imgcontainer3">
-            <img src="images2/ choco sandwich.jpeg" alt="a pancake with oil">
+            <img src="images2/choco sandwich.jpeg" alt="a pancake with oil">
             <p>$2.25</p>
             <h3>Chocolate Sandwich</h3>
         </div>
 
     </section>
 
-    <section class="delivery">
+    <section class="delivery" data-aos="fade-left">
         <div class="bgimg2">
         <div class="text-container">
             <h1>Get Your meals delivered to you at your doorstep</h1>
@@ -71,7 +72,7 @@
         </div>
     </section>
 
-    <section class="customer-feedback">
+    <section class="customer-feedback" data-aos="fade-up">
         <div class="head-container">
             <h1>What customers are saying</h1>
             <p>see our story below</p>
@@ -108,7 +109,7 @@
     </section>
 
 
-    <section class="notify" >
+    <section class="notify" data-aos="fade-left">
 <div class="notify-text">
     <h2>Get Notification</h2>
 
@@ -135,5 +136,10 @@
 
 
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

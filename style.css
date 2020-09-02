@@ -7,7 +7,7 @@ body, html{
     font-size: 19px;
     font-weight: 400;
     background-color: black;
-    overflow:hidden;
+    
 
 }
 .body-type{
@@ -282,14 +282,14 @@ footer h2{
 
 @media(max-width:400px){
     .card img{
-        width:100%;
+        width:80%;
     }
     
 }
 @media(max-width:600px){
     
     .card img{
-        width:100%;
+        width:80%;
     }
     .bgimage, .bgimage2{
         background-attachment: scroll;

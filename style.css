@@ -308,6 +308,15 @@ footer h2{
         margin:0;
     }
 
+    .text-container{
+        top:2%;
+    }
+
+    .notify-text{
+        left:10%;
+    }
+    
+  
 }
 @media(max-width: 560px){
     
